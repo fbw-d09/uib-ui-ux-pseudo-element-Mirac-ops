@@ -1,0 +1,86 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.zitat > ul li::before, .zitat > ul li::after{
+    display: inline-block;
+    margin-right: 10px;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    content: '';
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png')
+}
+
+.datei > li{
+    font-weight: bolder;
+}
+
+.datei > ul li::after{
+    display: inline-block;
+    margin: 10px;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    content: '';
+}
+
+.item1::after{
+
+    background-image: url('https://img.icons8.com/officel/64/000000/pdf.png');
+}
+
+.item2::after{
+
+    background-image:url('https://img.icons8.com/dusk/64/000000/ms-excel.png')
+}
+
+.item3::after{
+
+    background-image:url('https://img.icons8.com/dusk/64/000000/ms-word.png')
+}
+
+
+.item4::after{
+
+    background-image:url('https://img.icons8.com/dusk/64/000000/ms-word.png')
+}
+
+
+.item5::after{
+
+    background-image:url('https://img.icons8.com/officel/64/000000/pdf.png')
+}
+
+.sandwich > ul li{
+    list-style: none;
+    font-size: 3rem;
+}
+
+.b-1{
+    /* border: 1px solid grey; */
+    background-image: linear-gradient(rgb(232, 195, 195), rgb(214, 214, 196), rgb(188, 234, 188));
+}
+
+.b-3{
+    border: 1px solid rgb(245, 206, 206);
+    background-image: linear-gradient(rgb(230, 216, 155), rgb(172, 172, 165), rgb(215, 215, 242));
+}
+
+.sandwich-2 > p{
+    width: 98%;
+    height: 90px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+
+p{
+    font-size: 2rem;
+}
+
+
